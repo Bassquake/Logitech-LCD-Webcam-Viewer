@@ -4,6 +4,8 @@ A binary patch for Logitech's `LCDWebCam.exe` applet (v9.4.49.0), the webcam vie
 
 The applet lives in `C:\Program Files\Logitech\GamePanel Software\LCD Manager\Applets\`.
 
+![LCDWebCam on device](https://github.com/Bassquake/Logitech-LCD-Webcam-Viewer/blob/master/assets/lcdwebcam-photo.jpg)
+
 ## What was wrong
 
 1. **Crash on camera select.** When the camera's stream ended, the applet's event loop kept using a pointer it had already released (access violation at `0x546d3b`).
